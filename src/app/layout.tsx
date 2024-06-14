@@ -5,17 +5,17 @@ import "./globals.css";
 
 import Header from "./_header";
 
-const princesa = localFont({
-  src: "./_fonts/Princesa-Black.otf",
+const princesaRegular = localFont({
+  src: "./_fonts/Princesa-Regular.otf",
   display: "swap",
+  variable: "--font-princesa-regular",
 });
 
 const princesaLight = localFont({
   src: "./_fonts/Princesa-ExtraLight.otf",
   display: "swap",
+  variable: "--font-princesa-light",
 });
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "TBJS",
@@ -28,8 +28,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${princesaLight.className} bg-white`}>
+    <html
+      lang="en"
+      className={`${princesaLight.variable} ${princesaRegular.variable}`}
+    >
+      <body className="bg-white">
         <Header />
         {children}
       </body>
