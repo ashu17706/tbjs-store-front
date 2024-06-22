@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
-
 import Header from "./_header";
 
 const princesaRegular = localFont({
@@ -32,7 +30,7 @@ export default function RootLayout({
       lang="en"
       className={`${princesaLight.variable} ${princesaRegular.variable}`}
     >
-      <body className="bg-white">
+      <body className="bg-white font-priencesa-regular">
         <Header />
         {children}
       </body>

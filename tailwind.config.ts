@@ -18,10 +18,13 @@ const config: Config = {
         "priencesa-regular": ['var(--font-princesa-regular)'],
       },
       colors: {
-        "accent": '#F724A0'
+        "accent": '#F724A0',
+        'accent-dark': '#A50262'
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require("@designbycode/tailwindcss-text-stroke")
+  ],
 };
 export default config;
