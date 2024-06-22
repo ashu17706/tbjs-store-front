@@ -16,6 +16,9 @@ const config: Config = {
       fontFamily: {
         "priencesa-light": ['var(--font-princesa-light)'],
         "priencesa-regular": ['var(--font-princesa-regular)'],
+      },
+      colors: {
+        "accent": '#F724A0'
       }
     },
   },
