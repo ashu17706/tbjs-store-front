@@ -7,6 +7,7 @@ import Footer from "./_footer";
 import WhyBeautyMatters from "./_homepage/WhyDesignMatters";
 import FullWidth from "./_homepage/full-width";
 import DoubleLayout from "./_homepage/double-layout";
+import CollectionSection from "./_homepage/collection-section";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <ThirdSecond /> */}
       <FullWidth />
       <DoubleLayout />
+      <CollectionSection />
       <WhyBeautyMatters />
       <Footer />
     </main>

@@ -30,7 +30,7 @@ export default function RootLayout({
       lang="en"
       className={`${princesaLight.variable} ${princesaRegular.variable}`}
     >
-      <body className="bg-white font-priencesa-regular">
+      <body className="bg-white font-priencesa-regular text-black">
         <Header />
         {children}
       </body>
