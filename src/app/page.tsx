@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <main className="py-16">
       <FirstSection />
-      {/* <SecondSection />
-      <ThirdSecond /> */}
+      <SecondSection />
+      {/* <ThirdSecond /> */}
       <FullWidth />
       <DoubleLayout />
       <CollectionSection />
