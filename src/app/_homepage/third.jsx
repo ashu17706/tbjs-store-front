@@ -1,6 +1,16 @@
+import Image from "next/image";
+
 const ThirdSecond = () => {
   return (
-    <div className="h-[--height-viewport-without-header] relative mx-[134px] border-[1px] my-3 font-priencesa-regular text-black"></div>
+    <div className="h-[--height-viewport-without-header] md:mx-6 md:my-3 font-priencesa-regular text-black">
+      <Image
+        src="/third.png"
+        width={500}
+        height={500}
+        alt="Product Name"
+        className="h-full w-full"
+      />
+    </div>
   );
 };
 

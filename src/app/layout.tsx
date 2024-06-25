@@ -15,6 +15,12 @@ const princesaLight = localFont({
   variable: "--font-princesa-light",
 });
 
+const avenirNextRegular = localFont({
+  src: "./_fonts/avenir-next/AvenirNextCyr-Regular.woff2",
+  display: "swap",
+  variable: "--font-avenir-next-regular",
+});
+
 export const metadata: Metadata = {
   title: "TBJS",
   description: "The Bhavini Johar Store",
@@ -28,7 +34,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${princesaLight.variable} ${princesaRegular.variable}`}
+      className={`${princesaLight.variable} ${princesaRegular.variable} ${avenirNextRegular.variable}`}
     >
       <body className="bg-white font-priencesa-regular text-black">
         <Header />

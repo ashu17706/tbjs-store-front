@@ -16,7 +16,7 @@ const FirstSection = () => {
       </div>
       <div className="h-full w-[250px] mr-5 text-right md:flex flex-col justify-end pb-10 hidden">
         <p className="text-[26px] mb-[14px]">Blooming Florets Linen Throw</p>
-        <p className="text-[16px] mb-[68px]">
+        <p className="text-[16px] mb-[68px] font-avenir-regular">
           Handmade soft organic jute-linen block printed throw blanket, the
           perfect napping companion.
         </p>

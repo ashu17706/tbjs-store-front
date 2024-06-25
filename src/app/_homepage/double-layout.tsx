@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const DoubleLayout = () => {
   return (
-    <div className="h-[--height-viewport-without-header] md:h-[calc(var(--height-viewport-without-header)_*_2)] relative my-7">
+    <div className="h-[--height-viewport-without-header] md:h-[calc(var(--height-viewport-without-header)_*_2)] relative md:my-7">
       <div className="absolute top-0 left-0 right-0 bottom-0">
         <div className="h-full w-full flex flex-col justify-end md:justify-start items-center py-7">
           <p className="text-[3rem] md:text-[240px] leading-none text-stroke-[1px] md:text-stroke-[3px] text-stroke-accent-dark text-transparent">
