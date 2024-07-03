@@ -14,8 +14,10 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        "priencesa-light": ['var(--font-princesa-light)'],
-        "priencesa-regular": ['var(--font-princesa-regular)'],
+        "princesa-light": ['var(--font-princesa-light)'],
+        "princesa-light-it": ['var(--font-princesa-light-it)'],
+        "princesa-regular": ['var(--font-princesa-regular)'],
+        "princesa-regular-it": ['var(--font-princesa-regular-it)'],
         "avenir-regular": ['var(--font-avenir-next-regular)']
       },
       colors: {

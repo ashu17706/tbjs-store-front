@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const SecondSection = () => {
   return (
-    <div className="h-[--height-viewport-without-header] relative md:mx-[134px] flex justify-start items-center md:my-7">
+    <div className="h-[--height-viewport-without-header] relative md:mx-[134px] flex justify-start items-center md:mb-[120px]">
       <div className="flex flex-row justify-center items-center h-full md:w-[45%]">
         <Image
           src="/first.png"
@@ -14,13 +14,17 @@ const SecondSection = () => {
       </div>
       <div className="h-full ml-5 text-left md:flex flex-col justify-end pb-10 hidden">
         <div className="w-[250px]">
-          <p className="text-[26px] mb-[14px]">Blooming Florets Linen Throw</p>
-          <p className="text-[16px] mb-[68px]">
-            Handmade soft organic jute-linen block printed throw blanket, the
-            perfect napping companion.
+          <p className="text-[26px] mb-[14px] leading-[32px]">
+            Tigress Rani Tote Bag
           </p>
-          <p className="cursor-pointer mb-[64px]">
-            Take a look<span className="pl-1 font-bold text-accent">&gt;</span>
+          <p className="text-[14px] mb-[68px] font-avenir-regular leading-[22px]">
+            Handmade <span className="text-accent underline">100% cotton</span>{" "}
+            <span className="text-accent">quilted</span> with reversible
+            stripes, for the tigress in you.
+          </p>
+          <p className="cursor-pointer font-princesa-regular-it mb-[63px]">
+            Take a look
+            <span className="pl-1 font-bold text-accent">&gt;</span>
           </p>
         </div>
         <div className="flex justify-start items-center">

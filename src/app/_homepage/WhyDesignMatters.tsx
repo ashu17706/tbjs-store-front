@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const WhyBeautyMatters = () => {
   return (
-    <div className="bg-[#F0F4E2] flex flex-col md:flex-row justify-start text-black font-priencesa-regular">
+    <div className="bg-[#F0F4E2] flex flex-col md:flex-row justify-start text-black font-princesa-regular">
       <div className="w-full h-[420px] md:h-[997px] md:w-[60%] relative md:pr-[100px] md:pt-[100px] flex flex-col justify-start items-stretch">
         <div className="flex-1 relative">
           <Image

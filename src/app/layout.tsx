@@ -9,10 +9,22 @@ const princesaRegular = localFont({
   variable: "--font-princesa-regular",
 });
 
+const princesaRegularIt = localFont({
+  src: "./_fonts/Princesa-RegularIt.otf",
+  display: "swap",
+  variable: "--font-princesa-regular-it",
+});
+
 const princesaLight = localFont({
-  src: "./_fonts/Princesa-ExtraLight.otf",
+  src: "./_fonts/Princesa-Light.otf",
   display: "swap",
   variable: "--font-princesa-light",
+});
+
+const princesaLightIt = localFont({
+  src: "./_fonts/Princesa-LightIt.otf",
+  display: "swap",
+  variable: "--font-princesa-light-it",
 });
 
 const avenirNextRegular = localFont({
@@ -34,9 +46,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${princesaLight.variable} ${princesaRegular.variable} ${avenirNextRegular.variable}`}
+      className={`${princesaLight.variable} ${princesaRegular.variable} ${avenirNextRegular.variable} ${princesaRegularIt.variable} ${princesaLightIt.variable}`}
     >
-      <body className="bg-white font-priencesa-regular text-black">
+      <body className="bg-white font-princesa-regular text-black">
         <Header />
         {children}
       </body>

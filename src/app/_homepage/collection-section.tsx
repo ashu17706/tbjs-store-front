@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const CollectionSection = () => {
   return (
-    <div className="md:my-[50px] md:h-[calc(var(--height-viewport-without-header)-64px)] w-full flex flex-col md:flex-row justify-between md:items-stetch md:px-6">
+    <div className="md:mb-[120px] md:h-[calc(var(--height-viewport-without-header)-64px)] w-full flex flex-col md:flex-row justify-between md:items-stetch md:px-6">
       <div className="h-[--height-viewport-without-header] md:h-full md:flex-1 md:ml-6 flex flex-col justify-start items-center">
         <div className="h-[100%] md:h-[75%] w-full">
           <Image
