@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <footer className="text-center">
@@ -10,22 +12,22 @@ const Footer = () => {
           className="md:text-[54px] list-none flex flex-wrap items-center justify-evenly font-princesa-light"
         >
           <li className="border-b-[1px] border-white hover:border-accent cursor-pointer hover:transition-colors ease-in-out">
-            Bed
+            <Link href="#">Bed</Link>
           </li>
           <li className="border-b-[1px] border-white hover:border-accent cursor-pointer hover:transition-colors ease-in-out">
-            Dining
+            <Link href="#">Dining</Link>
           </li>
           <li className="border-b-[1px] border-white hover:border-accent cursor-pointer hover:transition-colors ease-in-out">
-            Furniture
+            <Link href="#">Furniture</Link>
           </li>
           <li className="border-b-[1px] border-white hover:border-accent cursor-pointer hover:transition-colors ease-in-out">
-            Objects
+            <Link href="#">Objects</Link>
           </li>
           <li className="border-b-[1px] border-white hover:border-accent cursor-pointer hover:transition-colors ease-in-out">
-            Clothing
+            <Link href="#">Clothing</Link>
           </li>
           <li className="border-b-[1px] border-white hover:border-accent cursor-pointer hover:transition-colors ease-in-out">
-            Lifestyle
+            <Link href="#">Lifestyle</Link>
           </li>
         </ul>
       </div>

@@ -1,32 +1,39 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const SectionWithFullWidthImage = () => {
   return (
     <div className="md:px-[49px] md:mb-[185px]">
       <div className="h-[--height-viewport-without-header] md:mb-[77px]">
-        <Image
-          src="/third.png"
-          width={500}
-          height={500}
-          alt="Product Name"
-          className="h-full w-full cursor-pointer"
-        />
-      </div>
-      <div className="h-[calc(var(--height-viewport-without-header)_*_2)] md:h-[--height-viewport-without-header] relative flex md:flex-row flex-col justify-between">
-        <div className="flex-1 md:mr-[61px] flex items-center justify-center">
+        <Link href="#" className="h-full w-full">
           <Image
-            src="/two_products_1.png"
+            src="/third.png"
             width={500}
             height={500}
             alt="Product Name"
-            className="h-full w-full object-cover cursor-pointer"
+            className="h-full w-full cursor-pointer"
           />
+        </Link>
+      </div>
+      <div className="h-[calc(var(--height-viewport-without-header)_*_2)] md:h-[--height-viewport-without-header] relative flex md:flex-row flex-col justify-between">
+        <div className="flex-1 md:mr-[61px] flex items-center justify-center">
+          <Link href="#" className="h-full w-full">
+            <Image
+              src="/two_products_1.png"
+              width={500}
+              height={500}
+              alt="Product Name"
+              className="h-full w-full object-cover cursor-pointer"
+            />
+          </Link>
         </div>
         <div className="flex-1 md:mr-[37px] bg-slate-50">
-          <video
-            src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-            className="h-full w-full object-cover cursor-pointer"
-          ></video>
+          <Link href="#">
+            <video
+              src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              className="h-full w-full object-cover cursor-pointer"
+            ></video>
+          </Link>
         </div>
 
         <div className="flex-1 hidden md:block ">
@@ -37,15 +44,17 @@ const SectionWithFullWidthImage = () => {
             <p className="text-[14px] mb-[74px] font-avenir-regular leading-[22px]">
               Handmade
               <span className="text-accent"> 100% cotton block printed </span>
-              <a href="#" className="text-accent underline">
+              <a href="#" className="text-accent hover:underline">
                 bed set
               </a>{" "}
               with cotton filling. Here time slows down.
             </p>
-            <p className="cursor-pointer font-princesa-regular-it">
-              Take a look
-              <span className="pl-1 font-bold text-accent">&gt;</span>
-            </p>
+            <span className="font-princesa-regular-it">
+              <Link href="#">
+                Take a look
+                <span className="pl-1 font-bold text-accent">&gt;</span>
+              </Link>
+            </span>
           </div>
         </div>
 

@@ -15,6 +15,12 @@ const princesaRegularIt = localFont({
   variable: "--font-princesa-regular-it",
 });
 
+const princesaAltRegularIt = localFont({
+  src: "./_fonts/PrincesaAlt-RegularIt.otf",
+  display: "swap",
+  variable: "--font-princesa-alt-regular-it",
+});
+
 const princesaLight = localFont({
   src: "./_fonts/Princesa-Light.otf",
   display: "swap",
@@ -46,7 +52,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${princesaLight.variable} ${princesaRegular.variable} ${avenirNextRegular.variable} ${princesaRegularIt.variable} ${princesaLightIt.variable}`}
+      className={`${princesaLight.variable} ${princesaRegular.variable} ${avenirNextRegular.variable} ${princesaRegularIt.variable} ${princesaLightIt.variable} ${princesaAltRegularIt.variable}`}
     >
       <body className="bg-white font-princesa-regular text-black">
         <Header />

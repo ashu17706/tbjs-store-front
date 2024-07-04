@@ -18,11 +18,13 @@ const config: Config = {
         "princesa-light-it": ['var(--font-princesa-light-it)'],
         "princesa-regular": ['var(--font-princesa-regular)'],
         "princesa-regular-it": ['var(--font-princesa-regular-it)'],
-        "avenir-regular": ['var(--font-avenir-next-regular)']
+        "princesa-alt-regular-it": ['var(--font-princesa-regular-it)'],
+        "avenir-regular": ['var(--font-princesa-alt-regular-it)']
       },
       colors: {
         "accent": '#F724A0',
-        'accent-dark': '#A50262'
+        'accent-dark': '#A50262',
+
       }
     },
   },
