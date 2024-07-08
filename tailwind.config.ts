@@ -19,11 +19,12 @@ const config: Config = {
         "princesa-regular": ['var(--font-princesa-regular)'],
         "princesa-regular-it": ['var(--font-princesa-regular-it)'],
         "princesa-alt-regular-it": ['var(--font-princesa-regular-it)'],
-        "avenir-regular": ['var(--font-princesa-alt-regular-it)']
+        "avenir-next-regular": ['var(--font-avenir-next-regular)']
       },
       colors: {
         "accent": '#F724A0',
         'accent-dark': '#A50262',
+        "accent-underline": '#FF0EE5'
 
       }
     },

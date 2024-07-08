@@ -11,22 +11,22 @@ const Footer = () => {
           role="list"
           className="md:text-[54px] list-none flex flex-wrap items-center justify-evenly font-princesa-light"
         >
-          <li className="border-b-[1px] border-white hover:border-accent cursor-pointer hover:transition-colors ease-in-out">
+          <li className="border-b-[1px] border-white hover:border-accent-underline cursor-pointer hover:transition-colors ease-in-out">
             <Link href="#">Bed</Link>
           </li>
-          <li className="border-b-[1px] border-white hover:border-accent cursor-pointer hover:transition-colors ease-in-out">
+          <li className="border-b-[1px] border-white hover:border-accent-underline cursor-pointer hover:transition-colors ease-in-out">
             <Link href="#">Dining</Link>
           </li>
-          <li className="border-b-[1px] border-white hover:border-accent cursor-pointer hover:transition-colors ease-in-out">
+          <li className="border-b-[1px] border-white hover:border-accent-underline cursor-pointer hover:transition-colors ease-in-out">
             <Link href="#">Furniture</Link>
           </li>
-          <li className="border-b-[1px] border-white hover:border-accent cursor-pointer hover:transition-colors ease-in-out">
+          <li className="border-b-[1px] border-white hover:border-accent-underline cursor-pointer hover:transition-colors ease-in-out">
             <Link href="#">Objects</Link>
           </li>
-          <li className="border-b-[1px] border-white hover:border-accent cursor-pointer hover:transition-colors ease-in-out">
+          <li className="border-b-[1px] border-white hover:border-accent-underline cursor-pointer hover:transition-colors ease-in-out">
             <Link href="#">Clothing</Link>
           </li>
-          <li className="border-b-[1px] border-white hover:border-accent cursor-pointer hover:transition-colors ease-in-out">
+          <li className="border-b-[1px] border-white hover:border-accent-underline cursor-pointer hover:transition-colors ease-in-out">
             <Link href="#">Lifestyle</Link>
           </li>
         </ul>
