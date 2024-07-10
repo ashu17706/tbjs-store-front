@@ -19,7 +19,7 @@ const FirstSection = async () => {
         <p className="text-[26px] mb-[14px] leading-[32px]">
           Blooming Florets Linen Throw
         </p>
-        <p className="text-[14px] mb-[74px] font-avenir-regular leading-[22px]">
+        <p className="text-[14px] mb-[74px] font-avenir-next-regular leading-[22px]">
           Handmade soft organic{" "}
           <Link href="#">
             <span className="text-accent hover:underline">jute-linen</span>

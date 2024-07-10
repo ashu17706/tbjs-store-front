@@ -20,13 +20,13 @@ const SecondSection = () => {
           <p className="text-[26px] leading-[32px] mb-[14px]">
             Tigress Rani Tote Bag
           </p>
-          <p className="text-[14px] mb-[68px] font-avenir-regular leading-[22px]">
+          <p className="text-[14px] mb-[68px] font-avenir-next-regular leading-[22px]">
             Handmade{" "}
-            <span className="text-accent cursor-pointer hover:underline">
+            <span className="text-accent-underline cursor-pointer hover:underline">
               100% cotton
             </span>{" "}
-            <span className="text-accent">quilted</span> with reversible
-            stripes, for the tigress in you.
+            <span className="text-accent-underline">quilted</span> with
+            reversible stripes, for the tigress in you.
           </p>
           <span className="font-princesa-regular-it">
             <Link href="#">
