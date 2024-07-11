@@ -17,12 +17,12 @@ const CollectionSection = () => {
           </Link>
         </div>
         <div className="hidden md:block text-center">
-          <p className="w-full md:text-[32px] md:leading-[32px] md:mb-[15px]">
+          <p className="w-full md:text-[24px] md:leading-[32px] md:mb-[15px]">
             Lilac Palms Towel Set
           </p>
-          <p className="m-auto w-[219px] font-avenir-next-regular text-[16px] leading-[22px] md:mb-[29px]">
+          <p className="m-auto w-[219px] font-avenir-next-regular text-[14px] leading-[22px] md:mb-[29px]">
             <span className="cursor-pointer hover:underline text-accent-underline">
-              100% cotton waffle towel set.
+              100% cotton waffle towel set.{" "}
             </span>
             Perfect for the summer. Quick dry and super absorbent.
           </p>
@@ -47,10 +47,10 @@ const CollectionSection = () => {
           </Link>
         </div>
         <div className="hidden md:block text-center">
-          <p className="w-full md:text-[32px] md:leading-[32px] md:mb-[15px]">
+          <p className="w-full md:text-[24px] md:leading-[32px] md:mb-[15px]">
             Desert Palms Bed Set
           </p>
-          <p className="m-auto w-[219px] font-avenir-next-regular text-[16px] leading-[22px] md:mb-[29px]">
+          <p className="m-auto w-[219px] font-avenir-next-regular text-[14px] leading-[22px] md:mb-[29px]">
             Soft{" "}
             <span className="cursor-pointer hover:underline text-accent-underline">
               Jute-Linen Bed Set
@@ -78,10 +78,10 @@ const CollectionSection = () => {
           </Link>
         </div>
         <div className="hidden md:block text-center">
-          <p className="w-full md:text-[32px] md:leading-[32px] md:mb-[15px]">
+          <p className="w-full md:text-[24px] md:leading-[32px] md:mb-[15px]">
             Willowing Palms Bed Set
           </p>
-          <p className="m-auto w-[219px] font-avenir-next-regular text-[16px] leading-[22px] md:mb-[29px]">
+          <p className="m-auto w-[219px] font-avenir-next-regular text-[14px] leading-[22px] md:mb-[29px]">
             <span className="cursor-pointer hover:underline text-accent-underline">
               100% cotton waffle bed set.
             </span>{" "}

@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import { useRef, useState } from "react";
 
 const Video = ({ url = "" }: { url: string }) => {
@@ -24,7 +23,7 @@ const Video = ({ url = "" }: { url: string }) => {
           {!playing ? (
             <div className="h-0 w-0 border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent border-l-[15px] border-l-[#FF0EE5]"></div>
           ) : (
-            <div className="">
+            <div>
               <span className="h-[20px] w-[5px] bg-[#FF0EE5] mr-2 inline-block"></span>
               <span className="h-[20px] w-[5px] bg-[#FF0EE5] inline-block"></span>
             </div>

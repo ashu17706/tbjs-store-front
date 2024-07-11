@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const FirstSection = async () => {
   return (
-    <div className="h-[--height-viewport-without-header] relative md:mx-[134px] flex justify-end mb-[104px]">
+    <div className="h-[--height-viewport-without-header] relative md:ml-[134px] md:mr-[157px] flex justify-end mb-[104px]">
       <div className="h-full w-[50%] absolute top-0 left-0 sm:flex flex-column items-start pt-9 hidden z-[-1]">
-        <p className="text-black font-princesa-regular text-[130px] leading-[0.8]">
+        <p className="text-black font-princesa-regular text-[130px] leading-[0.85]">
           The
           <br />
           Bhavini
@@ -19,7 +19,7 @@ const FirstSection = async () => {
         <p className="text-[26px] mb-[14px] leading-[32px]">
           Blooming Florets Linen Throw
         </p>
-        <p className="text-[14px] mb-[74px] font-avenir-next-regular leading-[22px]">
+        <p className="font-avenir-next-regular text-[14px] leading-[22px] mb-[74px]">
           Handmade soft organic{" "}
           <Link href="#">
             <span className="text-accent hover:underline">jute-linen</span>

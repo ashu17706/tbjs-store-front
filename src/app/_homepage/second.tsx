@@ -15,7 +15,7 @@ const SecondSection = () => {
           />
         </Link>
       </div>
-      <div className="h-full ml-[33px] text-left md:flex flex-col justify-start md:pt-[150px] hidden">
+      <div className="h-full ml-[33px] text-left md:flex flex-col justify-start md:pt-[50px] hidden">
         <div className="w-[250px]">
           <p className="text-[26px] leading-[32px] md:mb-[14px]">
             Tigress Rani <br />
@@ -37,7 +37,7 @@ const SecondSection = () => {
           </span>
         </div>
         <div className="flex justify-start items-center">
-          <div className="h-[186px] w-[186px] mr-[33px]">
+          <div className="h-[240px] w-[240px] mr-[33px]">
             <Link href="#" className="h-full w-full">
               <Image
                 src="/section_2_2.png"
@@ -48,7 +48,7 @@ const SecondSection = () => {
               />
             </Link>
           </div>
-          <div className="h-[186px] w-[186px] mr-[33px]">
+          <div className="h-[240px] w-[240px] mr-[33px]">
             <Link href="#" className="h-full w-full">
               <Image
                 src="/section_2_3.png"

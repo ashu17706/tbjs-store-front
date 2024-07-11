@@ -7,10 +7,14 @@ const SectionFour = () => {
     <div className="h-[--height-viewport-without-header] md:mb-[143px] flex justify-center items-center">
       <div className="bg-[#F0F4E2] h-[75%] w-full flex">
         <div className="w-[25%] md:mr-[39px] h-full text-right md:pt-[75px] flex flex-col items-end">
-          <p className="text-[60px] mb-[14px] leading-[54px] md:pb-[9px]">
-            The Gentle Leopard
+          <p className="text-[50px] mb-[14px] leading-[44px] md:pb-[9px]">
+            The
+            <br />
+            Gentle
+            <br />
+            Leopard
           </p>
-          <p className="text-[34px] mb-[14px] leading-[42px] font-princesa-light-it md:pb-[30px]">
+          <p className="text-[30px] mb-[14px] leading-[42px] font-princesa-light-it font-light md:pb-[30px]">
             Unisex Robes
           </p>
           <p className="text-[14px] font-avenir-next-regular leading-[22px] md:mb-[20px] w-[215px]">

@@ -13,7 +13,7 @@ const DoubleLayout = () => {
           <p className="font-princesa-alt-regular-it text-[5rem] md:text-[200px] leading-none text-accent-dark md:mb-[53px]">
             Bagh
           </p>
-          <p className="hidden md:block w-[275px] text-[#E3FFB5] text-center text-[20px] leading-[30px] md:mb-[63px] font-avenir-next-regular">
+          <p className="hidden md:block w-[275px] text-[#E3FFB5] text-center text-[14px] leading-[22px] md:mb-[63px] font-avenir-next-regular">
             Handmade, block printed jute-linen{" "}
             <span className="cursor-pointer hover:underline">table linen</span>{" "}
             set for that royal supper.

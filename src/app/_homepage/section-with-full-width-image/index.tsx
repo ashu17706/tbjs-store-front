@@ -12,7 +12,7 @@ const SectionWithFullWidthImage = () => {
             width={500}
             height={500}
             alt="Product Name"
-            className="h-full w-full cursor-pointer"
+            className="h-full w-full cursor-pointer object-cover"
           />
         </Link>
       </div>

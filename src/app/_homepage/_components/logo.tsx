@@ -21,7 +21,7 @@ const Logo = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   });
   return (
-    <h1 className="text-[28px]">
+    <h1 className="text-[20px]">
       <a href="/" className={`${visible ? "hidden" : "block"}`}>
         The Bhavini Johar Store
       </a>

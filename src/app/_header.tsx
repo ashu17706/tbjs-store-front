@@ -5,10 +5,10 @@ import Logo from "./_homepage/_components/logo";
 
 const Header = () => {
   return (
-    <header className="flex flex-row justify-between items-center px-[40px] pt-[38px] pb-[19px] fixed bg-white w-full z-10">
+    <header className="flex flex-row justify-between items-center px-[20px] pt-[20px] pb-[20px] fixed bg-white w-full z-10">
       <Logo />
-      <div className="flex flex-row justify-center items-center gap-[40px]">
-        <SearchLogo className="cursor-pointer" />
+      <div className="flex flex-row justify-center items-center gap-[20px]">
+        <SearchLogo className="cursor-pointer text-[10px]" />
         <StoreLogo className="cursor-pointer" />
         <HamburgerLogo className="cursor-pointer" />
       </div>
