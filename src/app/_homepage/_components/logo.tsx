@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 
 const Logo = () => {
-  const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
 
   const handleScroll = () => {
@@ -14,8 +13,6 @@ const Logo = () => {
     } else {
       setVisible(true);
     }
-
-    setPrevScrollPos(currentScrollPos);
   };
 
   useEffect(() => {
