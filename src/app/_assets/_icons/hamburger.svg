@@ -1,12 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18"
-  height="13.3" viewBox="0 0 18 13.3">
-  <defs>
-    <clipPath id="clip-path">
-      <rect width="18" height="13.3" fill="none" />
-    </clipPath>
-  </defs>
-  <g id="Icon_More" data-name="Icon More" clip-path="url(#clip-path)">
-    <path id="More" d="M0,12H0ZM0,6H0ZM0,0H0Z" transform="translate(0 0.65)" fill="none"
-      stroke="#000" stroke-linecap="round" stroke-width="1.3" />
-  </g>
+<svg width="13px" height="13px" viewBox="0 0 0.52 0.52" xmlns="http://www.w3.org/2000/svg"
+  fill="none">
+  <path stroke="#535358" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.0325"
+    d="M0.081 0.13h0.358M0.081 0.26h0.358M0.081 0.39h0.358" />
 </svg>
