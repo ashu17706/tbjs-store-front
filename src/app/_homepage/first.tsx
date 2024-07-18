@@ -16,18 +16,25 @@ const FirstSection = async () => {
         </p>
       </div>
       <div className="h-full w-[250px] mr-[27px] text-right md:flex flex-col justify-end md:pb-[120px] hidden">
-        <p className="text-[26px] mb-[14px] leading-[32px]">
+        <p className="md:text-[24px] md:mb-[15px] leading-[32px]">
           Blooming Florets Linen Throw
         </p>
         <p className="font-avenir-next-regular text-[14px] leading-[22px] mb-[74px]">
           Handmade soft organic{" "}
           <Link href="#">
-            <span className="text-accent hover:underline">jute-linen</span>
+            <span className="text-[#FF0EE5] hover:underline">
+              jute
+              <br />
+              -linen
+            </span>
           </Link>{" "}
-          <span className="text-accent">block printed throw blanket</span>, the
-          perfect napping companion.
+          <span className="text-[#FF0EE5]">
+            block printed throw
+            <br /> blanket
+          </span>
+          , the perfect napping companion.
         </p>
-        <span className="font-princesa-regular-it">
+        <span className="md:text-[14px] font-princesa-regular-it">
           <Link href="#">
             Take a look
             <span className="pl-1 font-bold text-accent">&gt;</span>

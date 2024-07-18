@@ -4,12 +4,12 @@ const Footer = () => {
   return (
     <footer className="text-center">
       <div className="pt-[95px] pb-[123px]">
-        <p className="mb-[57.5px] font-princesa-light-it md:text-[36px]">
+        <p className="mb-[57.5px] font-princesa-thin-it md:text-[32px]">
           Looking for something specific?
         </p>
         <ul
           role="list"
-          className="md:text-[54px] list-none flex flex-wrap items-center justify-evenly font-princesa-light"
+          className="md:text-[54px] md:leading-[90px] list-none flex flex-wrap items-center justify-evenly font-princesa-light"
         >
           <li className="border-b-[1px] border-white hover:border-accent-underline cursor-pointer hover:transition-colors ease-in-out">
             <Link href="#">Bed</Link>

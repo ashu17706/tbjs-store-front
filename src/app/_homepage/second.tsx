@@ -17,7 +17,7 @@ const SecondSection = () => {
       </div>
       <div className="h-full ml-[33px] text-left md:flex flex-col justify-start md:pt-[50px] hidden">
         <div className="w-[250px]">
-          <p className="text-[26px] leading-[32px] md:mb-[14px]">
+          <p className="md:text-[24px] leading-[32px] md:mb-[15px]">
             Tigress Rani <br />
             Tote Bag
           </p>
@@ -25,11 +25,13 @@ const SecondSection = () => {
             Handmade{" "}
             <span className="text-accent-underline cursor-pointer hover:underline">
               100% cotton
-            </span>{" "}
+            </span>
+            <br />
             <span className="text-accent-underline">quilted</span> with
-            reversible stripes, for the tigress in you.
+            reversible stripes,
+            <br /> for the tigress in you.
           </p>
-          <span className="font-princesa-regular-it cursor-pointer inline-block md:mb-[63px]">
+          <span className="md:text-[14px] font-princesa-regular-it cursor-pointer inline-block md:mb-[63px]">
             <Link href="#">
               Take a look
               <span className="pl-1 font-bold text-accent">&gt;</span>

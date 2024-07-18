@@ -5,7 +5,7 @@ const FullWidth = () => {
   return (
     <section className="h-[--height-viewport-without-header] md:mb-[97px] relative">
       <div className="absolute top-[41px] left-[42px] righ-0 h-3 px-6">
-        <span className="font-princesa-regular-it text-white">
+        <span className="md:text-[14px] font-princesa-regular-it text-white">
           <Link href="#">
             Take a look
             <span className="pl-1 font-bold text-accent">&gt;</span>

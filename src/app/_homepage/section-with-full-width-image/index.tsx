@@ -4,8 +4,8 @@ import Video from "./video";
 
 const SectionWithFullWidthImage = () => {
   return (
-    <div className="md:px-[49px] md:mb-[185px]">
-      <div className="h-[--height-viewport-without-header] md:mb-[77px]">
+    <div className="md:px-[49px] md:mb-[150px]">
+      <div className="h-[--height-viewport-without-header] md:mb-[49px]">
         <Link href="#" className="h-full w-full">
           <Image
             src="/third.png"
@@ -17,7 +17,7 @@ const SectionWithFullWidthImage = () => {
         </Link>
       </div>
       <div className="h-[calc(var(--height-viewport-without-header)_*_2)] md:h-[--height-viewport-without-header] relative flex md:flex-row flex-col justify-between">
-        <div className="flex-1 md:mr-[61px] flex items-center justify-center">
+        <div className="md:w-[35%] md:mr-[49px] flex items-center justify-center">
           <Link href="#" className="h-full w-full">
             <Image
               src="/two_products_1.png"
@@ -28,13 +28,13 @@ const SectionWithFullWidthImage = () => {
             />
           </Link>
         </div>
-        <div className="flex-1 md:mr-[37px]">
+        <div className="md:w-[35%] md:mr-[37px]">
           <Video url="/Section_3.MOV" />
         </div>
 
         <div className="flex-1 hidden md:block ">
-          <div className="h-full w-[200px] md:flex flex-col justify-start  hidden">
-            <p className="text-[26px] mb-[19px] leading-[32px]">
+          <div className="h-full w-[200px] md:flex flex-col justify-start  hidden md:pt-[5px]">
+            <p className="md:text-[24px] mb-[15px] leading-[32px]">
               Pomegranate Bed Set
             </p>
             <p className="text-[14px] mb-[74px] font-avenir-next-regular leading-[22px]">
@@ -44,7 +44,7 @@ const SectionWithFullWidthImage = () => {
               </a>{" "}
               with cotton filling. Here time slows down.
             </p>
-            <span className="font-princesa-regular-it">
+            <span className="md:text-[14px] font-princesa-regular-it">
               <Link href="#">
                 Take a look
                 <span className="pl-1 font-bold text-accent">&gt;</span>
@@ -55,7 +55,7 @@ const SectionWithFullWidthImage = () => {
 
         {/* TBJS half hidden text */}
         <div className="h-full absolute top-0 bottom-0 right-[-545px] flex flex-col justify-center">
-          <p className="text-black font-princesa-regular text-[180px] leading-[150px]">
+          <p className="text-black font-princesa-regular text-[175px] leading-[150px]">
             The
             <br />
             Bhavini

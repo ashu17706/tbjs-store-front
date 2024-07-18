@@ -5,7 +5,7 @@ const CollectionSection = () => {
   return (
     <div className="md:mb-[120px] md:max-h-[--height-viewport-without-header] w-full flex flex-col md:flex-row justify-between md:items-stetch md:px-[106px] md:gap-[96px]">
       <div className="md:h-full flex flex-col justify-start items-center flex-1">
-        <div className="aspect-[0.83] w-[100%] max-w-[100%] border-[4px] border-dotted border-[#DEFFA8] md:mb-[27px]">
+        <div className="aspect-[0.83] w-[100%] max-w-[100%] border-[4px] border-dotted border-[#DEFFA8] md:mb-[20px]">
           <Link href="#">
             <Image
               alt="Product name"
@@ -26,7 +26,7 @@ const CollectionSection = () => {
             </span>
             Perfect for the summer. Quick dry and super absorbent.
           </p>
-          <span className="font-princesa-regular-it cursor-pointer hover:scale-105 ease-in-out">
+          <span className="md:text-[14px] font-princesa-regular-it cursor-pointer hover:scale-105 ease-in-out">
             <Link href="#">
               Take a look
               <span className="pl-1 font-bold text-accent">&gt;</span>
@@ -35,7 +35,7 @@ const CollectionSection = () => {
         </div>
       </div>
       <div className="md:h-full flex flex-col justify-start items-center flex-1">
-        <div className="aspect-[0.83] w-[100%] max-w-[100%] border-[4px] border-dotted border-[#DEFFA8] md:mb-[27px]">
+        <div className="aspect-[0.83] w-[100%] max-w-[100%] border-[4px] border-dotted border-[#DEFFA8] md:mb-[20px]">
           <Link href="#">
             <Image
               alt="Product name"
@@ -57,7 +57,7 @@ const CollectionSection = () => {
             </span>{" "}
             with pillow covers. Lending an earthy look to your room.
           </p>
-          <span className="font-princesa-regular-it">
+          <span className="md:text-[14px] font-princesa-regular-it">
             <Link href="#">
               Take a look
               <span className="pl-1 font-bold text-accent">&gt;</span>
@@ -66,7 +66,7 @@ const CollectionSection = () => {
         </div>
       </div>
       <div className="md:h-full flex flex-col justify-start items-center flex-1">
-        <div className="aspect-[0.83] w-[100%] max-w-[100%] border-[4px] border-dotted border-[#DEFFA8] md:mb-[27px]">
+        <div className="aspect-[0.83] w-[100%] max-w-[100%] border-[4px] border-dotted border-[#DEFFA8] md:mb-[20px]">
           <Link href="#">
             <Image
               alt="Product name"
@@ -87,7 +87,7 @@ const CollectionSection = () => {
             </span>{" "}
             Perfect for lazy summer afternoons. Oh so soft!
           </p>
-          <span className="font-princesa-regular-it">
+          <span className="md:text-[14px] font-princesa-regular-it">
             <Link href="#">
               Take a look
               <span className="pl-1 font-bold text-accent-underline">&gt;</span>

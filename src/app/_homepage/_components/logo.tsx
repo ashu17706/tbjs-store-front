@@ -22,7 +22,10 @@ const Logo = () => {
   });
   return (
     <h1 className="text-[20px]">
-      <a href="/" className={`${visible ? "hidden" : "block"}`}>
+      <a
+        href="/"
+        className={`md:block hidden ${visible ? "invisible" : "visible"}`}
+      >
         The Bhavini Johar Store
       </a>
       <a href="/" className="block md:hidden">

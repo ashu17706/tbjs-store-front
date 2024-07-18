@@ -16,7 +16,7 @@ const config: Config = {
       fontFamily: {
         "princesa-light": ['var(--font-princesa-light)'],
         "princesa-light-it": ['var(--font-princesa-light-it)'],
-        "princesa-thin-it": ["--font-princesa-thin-it"],
+        "princesa-thin-it": ["var(--font-princesa-thin-it)"],
         "princesa-regular": ['var(--font-princesa-regular)'],
         "princesa-regular-it": ['var(--font-princesa-regular-it)'],
         "princesa-alt-regular-it": ['var(--font-princesa-alt-regular-it)'],
