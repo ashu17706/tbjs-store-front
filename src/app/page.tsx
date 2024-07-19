@@ -12,7 +12,7 @@ import SectionFour from "./_homepage/section-four";
 
 export default function Home() {
   return (
-    <main className="pt-[106px] overflow-hidden">
+    <main className="md:pt-[106px] overflow-hidden">
       <FirstSection />
       <SecondSection />
       <SectionWithFullWidthImage />
