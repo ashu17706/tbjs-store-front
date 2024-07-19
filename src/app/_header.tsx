@@ -5,7 +5,7 @@ import Logo from "./_homepage/_components/logo";
 
 const Header = () => {
   return (
-    <header className="flex flex-row justify-between items-center px-[20px] pt-[20px] pb-[20px] fixed bg-white w-full z-10">
+    <header className="flex flex-row justify-between items-center px-[20px] pt-[20px] pb-[20px] fixed md:bg-white w-full z-10 md:text-black text-white">
       <Logo />
       <div className="flex flex-row justify-center items-center gap-[20px]">
         <SearchLogo className="cursor-pointer text-[10px]" />
