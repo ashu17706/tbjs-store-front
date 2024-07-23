@@ -4,7 +4,7 @@ import Link from "next/link";
 const FirstSection = async () => {
   return (
     <>
-      <section className="md:h-[--height-viewport-without-header] relative md:ml-[134px] md:mr-[157px] md:flex hidden justify-end md:mb-[104px]">
+      <section className="md:h-[--height-viewport-without-header] md:min-h-[--height-viewport-without-header] relative md:ml-[134px] md:mr-[157px] md:flex hidden justify-end md:mb-[104px]">
         <div className="h-full w-[50%] absolute top-0 left-0 sm:flex flex-column items-start pt-9 hidden z-[-1]">
           <p className="text-black font-princesa-regular text-[130px] leading-[0.85]">
             The
@@ -57,11 +57,11 @@ const FirstSection = async () => {
       <section className="md:hidden h-[100dvh] flex justify-center items-center">
         <Link href="#" className="m-0 p-0 h-full w-full">
           <Image
-            src="/first.png"
-            width={500}
-            height={500}
+            src="/mobile/1.jpg"
+            width={375}
+            height={768}
             alt="Product Name"
-            className="h-full w-full"
+            className="h-full w-full object-cover"
           />
         </Link>
       </section>

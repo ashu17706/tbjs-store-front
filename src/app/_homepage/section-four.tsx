@@ -75,7 +75,7 @@ const SectionFour = () => {
       {/* On Mobile */}
       <section className="md:hidden flex justify-center items-center h-[100dvh] bg-red-500">
         <Link href="#" className="h-full w-full">
-          <Video url="/Section_4.mp4" />
+          <Video url="/mobile/4.mp4" />
         </Link>
       </section>
     </>

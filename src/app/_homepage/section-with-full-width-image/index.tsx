@@ -72,11 +72,11 @@ const SectionWithFullWidthImage = () => {
       <section className="md:hidden flex h-[100dvh] justify-center items-center ">
         <Link href="#" className="h-full w-full">
           <Image
-            src="/two_products_1.png"
-            width={500}
-            height={500}
+            src="/mobile/3.jpeg"
+            width={375}
+            height={768}
             alt="Product Name"
-            className="h-full w-full object-cover cursor-pointer"
+            className="h-full w-full object-cover"
           />
         </Link>
       </section>

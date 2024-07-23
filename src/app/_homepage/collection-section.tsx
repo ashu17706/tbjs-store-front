@@ -105,8 +105,8 @@ const CollectionSection = () => {
             <Link href="#">
               <Image
                 alt="Product name"
-                src="/collection_one.png"
-                width={1024}
+                src="/mobile/7.jpg"
+                width={376}
                 height={768}
                 className="h-full w-full object-cover"
               />
@@ -123,8 +123,8 @@ const CollectionSection = () => {
             <Link href="#">
               <Image
                 alt="Product name"
-                src="/collection_two.png"
-                width={1024}
+                src="/mobile/8.jpg"
+                width={376}
                 height={768}
                 className="h-full w-full object-cover"
               />
@@ -141,8 +141,8 @@ const CollectionSection = () => {
             <Link href="#">
               <Image
                 alt="Product name"
-                src="/collection_three.png"
-                width={1024}
+                src="/mobile/9.jpg"
+                width={376}
                 height={768}
                 className="h-full w-full object-cover"
               />

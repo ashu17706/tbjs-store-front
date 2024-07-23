@@ -12,7 +12,7 @@ const SecondSection = () => {
               width={500}
               height={500}
               alt="Product Name"
-              className="h-full w-full"
+              className="h-full w-full object-fit"
             />
           </Link>
         </div>
@@ -68,11 +68,11 @@ const SecondSection = () => {
       <section className="md:hidden h-[100dvh] flex justify-center items-center">
         <Link href="#" className="h-full w-full">
           <Image
-            src="/section_2_1.png"
-            width={500}
-            height={500}
+            src="/mobile/2.jpg"
+            width={375}
+            height={768}
             alt="Product Name"
-            className="h-full w-full"
+            className="h-full w-full object-cover"
           />
         </Link>
       </section>

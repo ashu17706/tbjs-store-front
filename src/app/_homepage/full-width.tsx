@@ -27,8 +27,8 @@ const FullWidth = () => {
         <Link href="#" className="h-full w-full">
           <Image
             alt="Product name"
-            src="/full-width-with-take-a-look.png"
-            width={1024}
+            src="/mobile/5.jpg"
+            width={376}
             height={768}
             className="h-full w-full object-cover"
           />

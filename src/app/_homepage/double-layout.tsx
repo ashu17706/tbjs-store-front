@@ -40,8 +40,8 @@ const DoubleLayout = () => {
       <section className="md:hidden h-[100dvh] flex justify-center items-center">
         <Image
           alt="Product name"
-          src="/double_layout_image.png"
-          width={1024}
+          src="/mobile/6.jpg"
+          width={376}
           height={768}
           className="h-full w-full object-cover"
         />
